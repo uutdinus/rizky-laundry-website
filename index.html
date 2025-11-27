@@ -89,6 +89,7 @@
       grid-template-columns: 1.2fr 1fr;
       gap: 20px;
       margin-top: 20px;
+      align-items: center;
     }
 
     .hero-tagline {
@@ -130,6 +131,20 @@
       color: white;
       font-weight: 600;
       text-decoration: none;
+    }
+
+    /* HERO IMAGE KANAN */
+    .hero-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hero-image img {
+      width: 300px;
+      max-width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.18);
     }
 
     section {
@@ -231,6 +246,7 @@
     </nav>
 
     <div class="hero">
+      <!-- Kiri: teks -->
       <div>
         <p class="hero-tagline">Cuci Basah • Cuci Kering • Setrika</p>
         <h1 class="hero-title">Laundry cepat, wangi, dan terjangkau.</h1>
@@ -247,6 +263,11 @@
           Chat via WhatsApp
         </a>
         <a href="#layanan" class="btn-outline">Lihat Layanan</a>
+      </div>
+
+      <!-- Kanan: gambar cuci manual -->
+      <div class="hero-image">
+        <img src="cuci.jpeg" alt="Cuci baju manual di papan">
       </div>
     </div>
   </div>
